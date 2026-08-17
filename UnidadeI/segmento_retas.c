@@ -4,7 +4,7 @@
 #define h 256
 
 
-unsigned char image [w][h][3]
+unsigned char image[w][h][3];
 // image é uma matriz onde w são as colunas, h são as linhas e 3 é o número de canais (RGB)
 
 void px(int x, int y, unsigned char r, unsigned char g, unsigned char b){
@@ -33,9 +33,9 @@ void svImg (){
 
     printf("P3 \n %d \t %d \n 255 \n", w, h);
     for (int x = 0; x < w; x++){
-        for (int y = 0, y < h; y++){
+        for (int y = 0; y < h; y++){
             for (int c = 0; c <3; c++){
-                printf("%d \t", image[x][y][c])
+                printf("%d \t", image[x][y][c]);
             }
             printf("\n");
         }
@@ -59,4 +59,6 @@ int main(){
     return -1;
 }
 
-// compila com gcc -o -s && ./s >output.ppm
+// Compila com: 
+// gcc segmento_retas.c -o s
+// ./s > output.ppm
