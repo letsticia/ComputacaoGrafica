@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int ponto[2];
-int ponto_resultante[2];
+int ponto[3];
+int ponto_resultante[3];
 
 void preenche_ponto(int x, int y, int z){
 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int vetor_normalizado[2];
+int vetor_normalizado[3];
 
 void normaliza_vetor(int x, int y, int z){
 

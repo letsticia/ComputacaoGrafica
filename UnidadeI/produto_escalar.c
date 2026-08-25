@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int vetorA[2];
-int vetorB[2];
+int vetorA[3];
+int vetorB[3];
 
 void preenche_vetorA(int x, int y, int z){
     printf("Vetor A : <%d, %d, %d>\n", x, y, z);
